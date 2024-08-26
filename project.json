@@ -1,0 +1,56 @@
+{
+  "name": "Gaig.Rpa.Library.SES.DocumentExtraction",
+  "projectId": "f73fdf6d-a5cf-44b8-acd5-309b9dd5e306",
+  "description": "Extracts data from COI documents",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.ML.Activities": "1.28.3",
+    "UiPath.Excel.Activities": "2.16.3",
+    "UiPath.IntelligentOCR.Activities": "6.19.2",
+    "UiPath.Mail.Activities": "1.20.3",
+    "UiPath.System.Activities": "22.10.6",
+    "UiPath.Testing.Activities": "22.10.4",
+    "UiPath.UIAutomation.Activities": "22.10.8"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.10.10.0",
+  "projectVersion": "1.0.3",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
